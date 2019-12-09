@@ -57,4 +57,12 @@ public class User {
 		this.accountNumber = accountNumber;
 	}
 
+	@Override
+	public String toString() {
+		return "User [id=" + id + ", forename=" + forename + ", surname=" + surname + ", accountNumber=" + accountNumber
+				+ ", winnings=" + winnings + "]";
+	}
+	
+	
+
 }
