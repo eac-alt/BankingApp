@@ -41,4 +41,26 @@ public class PrizeLogicTest {
         Assert.assertEquals(10000, resultC10);
 
     }
+
+    @Test
+    public void testMoneyWrongStartChar() {
+        int result00 = 0;
+        try {
+            result00 = prizeLogic.genNumber("f123456");
+        } catch (Exception e) {
+            return;
+        }
+        Assert.fail();
+    }
+
+    @Test
+    public void testMoneyWrongLength() {
+        int result00 = 0;
+        try {
+            result00 = prizeLogic.genNumber("b1234567");
+        } catch (Exception e) {
+            return;
+        }
+        Assert.fail();
+    }
 }
