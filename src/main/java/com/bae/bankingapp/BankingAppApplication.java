@@ -1,7 +1,5 @@
 package com.bae.bankingapp;
 
-import javax.security.auth.login.AccountNotFoundException;
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

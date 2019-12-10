@@ -8,13 +8,13 @@ public class Generator {
 	public String generatorLetter() {
 		switch (rand.nextInt(3)) {
 		case (0):
-			return "A";
+			return "a";
 		case (1):
-			return "B";
+			return "b";
 		case (2):
-			return "C";
+			return "c";
 		}
-		return "D";
+		return null;
 	}
 
 	public int generatorNumber() {
