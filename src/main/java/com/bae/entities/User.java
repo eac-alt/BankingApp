@@ -19,6 +19,10 @@ public class User {
 	
 	private int winnings;
 	
+	public User() {
+		
+	}
+	
 	public User(String forename, String surname) {
 		super();
 		this.forename = forename;
