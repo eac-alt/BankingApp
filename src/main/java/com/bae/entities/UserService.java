@@ -40,7 +40,7 @@ public class UserService {
 	}
 
 	public User updateUser(User user, Long id) {
-		User toUpdate = this.repo.getOne(id);
+		User toUpdate = this.findUserByID(id);
 		toUpdate.setForename(user.getForename());
 		toUpdate.setSurname(user.getSurname());
 		return this.repo.save(toUpdate);
