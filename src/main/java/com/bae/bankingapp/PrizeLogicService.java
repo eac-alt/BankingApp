@@ -88,7 +88,7 @@ public class PrizeLogicService {
 	}
 
 	public String accountNumber() {
-		String accountNumber = this.generatorLetter() + Integer.toString(this.generatorNumber());
+		String accountNumber = this.generatorLetter() + this.generatorNumber();
 		return accountNumber;
 	}
 
