@@ -1,4 +1,4 @@
-package com.bae.bankingapp;
+package com.bae;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,8 +8,6 @@ public class BankingAppApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BankingAppApplication.class, args);
-		System.out.println(Generator.accountNumber());
-
 	}
-	
+
 }
